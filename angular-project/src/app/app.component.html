@@ -1,0 +1,19 @@
+<nav class="navbar bg-dark">
+  <li routerLinkActive="active" >
+    <a [routerLink]="['']"> <h1>Online Shop</h1></a>
+  </li>
+
+  <ul>
+    <li routerLinkActive="active">
+      <a [routerLink]="['/todos']">todos-list</a>
+    </li>
+    <li routerLinkActive="active">
+      <a [routerLink]="['/about']">About us</a>
+    </li>
+    <li routerLinkActive="active">
+      <a [routerLink]="['/login']">Login</a>
+    </li>
+  </ul>
+
+</nav>
+<router-outlet></router-outlet>
